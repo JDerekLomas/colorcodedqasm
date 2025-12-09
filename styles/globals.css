@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 
   /* Artifacts (Product Cards) */
   .artifact-card {
-    @apply group cursor-pointer;
+    @apply cursor-pointer;
   }
 
   .artifact-image {
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .artifact-overlay {
-    @apply absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100
+    @apply absolute inset-0 bg-black/50 opacity-0
            transition-opacity duration-500 flex items-center justify-center;
   }
 
