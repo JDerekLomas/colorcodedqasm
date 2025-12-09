@@ -18,7 +18,7 @@ export function Header({ cartCount = 0 }: HeaderProps) {
         <nav className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
           {/* Logo */}
           <Link href="/" className="text-xl font-medium tracking-tight text-white">
-            <span className="text-gold">Color</span>Coded<span className="text-gold">QASM</span>
+            <span className="text-gold">Garden</span> of <span className="text-gold">Eden</span>
           </Link>
 
           {/* Desktop Navigation */}

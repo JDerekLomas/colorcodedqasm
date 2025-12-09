@@ -3,21 +3,21 @@ import { Header, Footer } from "@/components/qasm";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "ColorCodedQASM | Craft Encoded. Culture Compiled.",
+  title: "Garden of Eden | Fashion Archaeology",
   description:
-    "Luxury artisanal fashion platform connecting you with master craftspeople. Custom garments featuring heritage embroidery techniques from South Asia.",
+    "Excavating ancient symbols and resurrecting them as hand-embroidered wearable art. Custom garments featuring sacred motifs from Mesopotamia, Egypt, Celtic, and beyond.",
   openGraph: {
-    title: "ColorCodedQASM | Craft Encoded. Culture Compiled.",
+    title: "Garden of Eden | Fashion Archaeology",
     description:
-      "Where heritage becomes algorithm. Custom artisanal fashion in 44 days.",
-    images: ["/images/qasm-og-banner.jpg"],
+      "Wear Your Ancestry. Ancient symbols excavated and resurrected as embroidered wearable art.",
+    images: ["/images/garden-og-banner.jpg"],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ColorCodedQASM",
-    description: "Craft Encoded. Culture Compiled.",
-    images: ["/images/qasm-og-banner.jpg"],
+    title: "Garden of Eden",
+    description: "Fashion Archaeology. Wear Your Ancestry.",
+    images: ["/images/garden-og-banner.jpg"],
   },
 };
 

@@ -23,18 +23,18 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <VideoHero
-        title="Craft Encoded. Culture Compiled."
-        subtitle="Where heritage becomes algorithm. Custom artisanal fashion in 44 days."
+        title="Wear Your Ancestry"
+        subtitle="Fashion archaeology. Ancient symbols excavated and resurrected as embroidered wearable art."
         videoSrc="/videos/hero-embroidery.mp4"
-        ctaText="Begin Encoding"
+        ctaText="Begin Excavation"
         ctaHref="/encode"
       />
 
       {/* Featured Artifacts */}
       <FeaturedArtifacts
         artifacts={featuredArtifacts}
-        title="Featured Artifacts"
-        subtitle="Each piece is a program written in thread, executing centuries of textile knowledge."
+        title="Archaeological Finds"
+        subtitle="Each artifact carries symbols from ancient civilizations—meanings lost to time, now stitched back to life."
       />
 
       {/* Protocol (Co-Creation Process) */}
@@ -51,10 +51,10 @@ export default function HomePage() {
             className="text-center mb-12"
           >
             <p className="text-xs text-gold uppercase tracking-overline mb-3">
-              Curated Collections
+              Dig Sites
             </p>
             <h2 className="text-3xl md:text-4xl text-white font-medium">
-              Explore by Collection
+              Explore by Civilization
             </h2>
           </motion.div>
 
@@ -86,11 +86,12 @@ export default function HomePage() {
               Our Manifesto
             </p>
             <blockquote className="text-2xl md:text-3xl font-light leading-relaxed text-dark-500 mb-8">
-              "We exist so artisans do not become relics. So heritage is not fossilized.
-              So each garment can carry both memory and possibility."
+              "Fashion is memory made tangible. Every ancient symbol carried meaning:
+              protection, fertility, abundance, transcendence. These visual languages
+              have been lost to time. We dig them up and stitch them back to life."
             </blockquote>
             <Button href="/about" variant="secondary" className="!text-dark-500 !border-dark-500 hover:!bg-dark-500 hover:!text-cream">
-              Read Our Story
+              Our Archaeological Mission
             </Button>
           </motion.div>
         </div>
@@ -113,18 +114,18 @@ export default function HomePage() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-4xl md:text-5xl font-light text-white mb-6">
-              Ready to Begin Encoding?
+              Ready to Excavate Your Story?
             </h2>
             <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
-              Your vision, translated through generations of craft knowledge
-              into a one-of-a-kind artifact.
+              Choose your dig site. Select symbols that resonate with your ancestry.
+              Let master artisans resurrect them as wearable artifacts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button href="/encode" variant="primary" size="lg">
-                Start from Zero
+                Commission an Artifact
               </Button>
               <Button href="/archive" variant="outline" size="lg">
-                Fork an Artifact
+                Browse Excavations
               </Button>
             </div>
           </motion.div>

@@ -1,7 +1,13 @@
-// ColorCodedQASM Type Definitions
+// Garden of Eden Type Definitions
 
 export type Size = 'XS' | 'S' | 'M' | 'L' | 'XL';
 export type Availability = 'in_stock' | 'sold_out' | 'pre_order' | 'made_to_order';
+
+export interface SymbolOrigin {
+  culture: string;
+  era: string;
+  meaning: string;
+}
 
 export interface Artifact {
   id: string;
@@ -20,6 +26,7 @@ export interface Artifact {
   artisan?: string;
   leadTime?: string;
   featured?: boolean;
+  origin?: SymbolOrigin;
 }
 
 export interface Collection {

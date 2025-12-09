@@ -1,349 +1,397 @@
-# MuleRouter Prompts for ColorCodedQASM
+# Garden of Eden - MuleRouter/Midjourney Image Generation Prompts
 
-> Image and video generation prompts for creating assets for the ColorCodedQASM site.
+> Fashion archaeology brand prompts for generating product imagery, campaign visuals, and brand assets.
 
 ## Brand Visual Guidelines
 
-**Aesthetic**: Dark luxury, museum-quality, editorial fashion photography
-**Color Mood**: Deep blacks, warm browns, gold accents, cream highlights
-**Lighting**: Dramatic, directional, chiaroscuro-inspired
-**Setting**: Minimalist studio, architectural spaces, artisan workshops
-**Models**: Diverse, confident, editorial poses
-**Texture**: Emphasis on fabric detail, embroidery close-ups
+**Concept**: Fashion archaeology - excavating ancient symbols and resurrecting them as embroidered wearable art
+**Aesthetic**: Museum-quality, archaeological documentation meets luxury editorial
+**Color Mood**: Lapis lazuli blues, papyrus golds, terracotta, obsidian blacks, ivory
+**Lighting**: Dramatic museum spotlighting, artifact documentation style
+**Setting**: Museum galleries, ancient ruins, archaeological sites, minimalist studios
+**Models**: Diverse, statuesque, contemplative poses (like viewing ancient art)
+**Texture**: Visible embroidery stitches, thread texture, fabric weave
 
 ---
 
-## Hero Videos
+## Reference: ColorCodedCrime Product Styles
 
-### Main Site Hero Video
+Based on actual products from ColorCodedCrime:
+
+**Dilkash Kimono Jacket** ($1,200)
+- Cropped kimono-style wrap jacket
+- Black tropical suiting fabric base
+- Hand-beaded silver beadwork on woven jamdani
+- Heart motifs throughout
+- Structured yet soft drape
+
+**Hand Embroidered Oversized Suit** ($1,590)
+- Two-piece oversized silhouette
+- Dense surface embroidery covering entire garment
+- Geometric and botanical patterns
+- Silk thread work (resham)
+
+**Jamdani Draped Dress** ($1,720)
+- Sculptural draping
+- Translucent Jamdani weave (each meter takes 3 days)
+- Subtle woven motifs
+- Architectural construction
+
+**Gyre Falcon Corduroy Plaid Suit** ($1,300)
+- Cotton plaid and green corduroy combination
+- Oversized notch lapel
+- Nature-inspired falcon embroidery
+- Earth tones
+
+---
+
+## Garden of Eden Product Prompts
+
+### 1. Tree of Life Kimono Jacket
+**Concept**: Mesopotamian sacred tree connecting heaven and earth (3000 BCE)
+
 ```
-Cinematic slow-motion footage of hands embroidering gold thread on dark fabric.
-Extreme close-up of needle piercing cloth, thread pulling through.
-Warm tungsten lighting, shallow depth of field.
-Intercut with: finished garment on model walking slowly through minimal dark space.
-Grain overlay, desaturated with warm highlights.
-Loop seamlessly, 15-20 seconds.
-4K resolution, 24fps, 2.39:1 aspect ratio.
+Editorial fashion photography, cropped kimono wrap jacket in black wool suiting,
+hand-embroidered Mesopotamian Tree of Life motif covering the back panel,
+gold and emerald green silk thread work, stylized branches reaching upward,
+winged figures flanking the tree in silver thread,
+model standing in museum gallery next to Assyrian relief artifact,
+dramatic spotlight, deep shadows, luxury campaign aesthetic,
+shot on medium format Hasselblad, shallow depth of field,
+rich blacks, gold highlights, --ar 3:4 --v 6.1 --s 750
 ```
 
-### Collection Hero - Threads of Abundance
+**Detail Shot**:
 ```
-Macro footage of embroidered birds and flowers on fabric.
-Camera slowly pulling back to reveal full garment.
-Model standing still in contemplative pose, dark background.
-Natural elements (leaves, flowers) scattered on floor.
-Warm golden hour lighting mixed with controlled studio light.
-Subtle camera movement, dreamy focus pulls.
-10-15 seconds, loopable.
+Extreme macro photography of hand embroidery detail,
+Mesopotamian Tree of Life motif, gold silk thread on black wool,
+individual stitches visible, Zardozi technique with gold bullion,
+small winged deity figures in silver thread,
+museum artifact documentation lighting,
+shallow focus on central tree trunk, --ar 1:1 --v 6.1
 ```
 
-### Artisan Workshop Video
+### 2. Lotus Emergence Dress
+**Concept**: Egyptian blue lotus rising from primordial waters (2000 BCE)
+
 ```
-Documentary-style footage of artisan at work.
-Hands weaving at traditional loom OR embroidering with aari needle.
-Authentic workshop setting with natural light through windows.
-Close-ups of aged hands, calluses, precision movements.
-Wide shots showing the scale of the loom/workspace.
-Natural sound design (thread tension, loom clicking).
-Warm, documentary color grade.
-30-60 seconds.
+High fashion editorial, sculptural draped dress in cream handwoven Jamdani fabric,
+Egyptian blue lotus flowers embroidered in lapis blue and gold thread,
+hieroglyphic border details around hem,
+lotus rising from pleated fabric mimicking water ripples,
+model posed in contemplative stance before Egyptian obelisk or column,
+golden hour lighting mixed with museum spots,
+ethereal and regal atmosphere, ancient meets modern,
+Vogue Italia aesthetic, --ar 2:3 --v 6.1 --s 800
+```
+
+**Flat Lay Shot**:
+```
+Overhead fashion photography, cream draped dress laid flat on obsidian surface,
+Egyptian blue lotus embroidery in blue and gold silk thread visible,
+surrounded by papyrus scrolls, lapis lazuli stones, gold scarab artifacts,
+museum curation aesthetic, documentary lighting,
+rich textures, archaeological specimen presentation, --ar 4:5 --v 6.1
+```
+
+### 3. Eternal Knot Overcoat
+**Concept**: Celtic endless knots representing infinity (500 BCE)
+
+```
+Moody editorial fashion photography, long structured overcoat in forest green wool,
+Celtic knotwork embroidered across shoulders and down back in silver thread,
+intricate interlocking loops with no beginning or end,
+spiral motifs on cuffs and lapels,
+model standing in misty Irish landscape with standing stones,
+soft diffused light through fog, mystical atmosphere,
+dark academia meets ancient wisdom aesthetic,
+cinematic color grade, --ar 3:4 --v 6.1 --s 700
+```
+
+**Close-up**:
+```
+Macro detail shot of Celtic knotwork embroidery,
+silver metallic thread on deep forest green wool,
+endless loops weaving over and under,
+visible stitch texture showing hand-worked quality,
+directional lighting creating shadows in the relief,
+museum textile documentation style, --ar 1:1 --v 6.1
+```
+
+### 4. Serpent Wisdom Blazer
+**Concept**: Mayan feathered serpent Quetzalcoatl (600 CE)
+
+```
+Editorial fashion campaign, oversized blazer in midnight blue tropical suiting,
+dramatic feathered serpent (Quetzalcoatl) embroidered across back,
+turquoise, jade green, and gold thread work,
+serpent head on left shoulder, tail curving to right hip,
+iridescent feather details catching light,
+model in front of Mayan temple ruins at golden hour,
+powerful stance, ancient power aesthetic,
+rich saturated colors, dramatic contrast, --ar 3:4 --v 6.1 --s 750
+```
+
+### 5. Sacred Garden Shirt
+**Concept**: Persian Pairidaeza - walled garden, origin of "paradise" (1500 CE)
+
+```
+Soft luxury fashion photography, flowing oversized shirt in ivory silk,
+Persian miniature garden embroidery covering front and back,
+multicolor silk threads: rose pink, sky blue, emerald, saffron gold,
+stylized flowers, cypress trees, birds, water channels,
+intricate floral borders like illuminated manuscripts,
+model in serene pose among real garden flowers,
+soft natural light, dreamy romantic atmosphere,
+paradise garden made wearable, --ar 3:4 --v 6.1 --s 650
+```
+
+### 6. Scarab Protection Vest
+**Concept**: Egyptian dung beetle pushing the sun (1500 BCE)
+
+```
+Sharp editorial fashion shot, structured vest in black linen,
+large scarab beetle embroidered on back in gold bullion thread,
+beetle pushing a sun disk in orange and gold gradient thread,
+protective hieroglyphic symbols along edges,
+wings spread across shoulder blades,
+model photographed in profile against minimalist dark backdrop,
+dramatic single light source from above,
+powerful protective talisman aesthetic, --ar 3:4 --v 6.1 --s 800
+```
+
+### 7. Indus Valley Seal Jacket
+**Concept**: Sacred animals from Indus Valley civilization (2500 BCE)
+
+```
+Luxury fashion editorial, cropped boxy jacket in indigo hand-dyed cotton,
+Indus Valley seal motifs embroidered in cream and terracotta thread,
+unicorn bull figure on back, geometric patterns on sleeves,
+Brahmi-inspired script border around hem,
+ancient mystery civilization aesthetic,
+model in archaeological dig site setting with pottery shards,
+documentary lighting with warm golden accents,
+scholarly meets stylish, --ar 3:4 --v 6.1 --s 700
+```
+
+### 8. Byzantine Peacock Coat
+**Concept**: Peacock symbolizing immortality from Byzantine mosaics (500 CE)
+
+```
+Opulent editorial fashion, long flowing coat in deep purple velvet,
+Byzantine-style peacock embroidered in gold, turquoise, and sapphire thread,
+tail feathers spread across back in mosaic-like pattern,
+gold vine borders along front opening,
+model in Byzantine church or mosaic-tiled interior,
+candlelit atmosphere mixed with dramatic spots,
+imperial luxury, eternal beauty aesthetic,
+rich jewel tones, --ar 3:4 --v 6.1 --s 850
+```
+
+### 9. Nordic Rune Protection Hoodie
+**Concept**: Viking protection runes and nature spirits (800 CE)
+
+```
+Contemporary luxury streetwear editorial, oversized hoodie in charcoal wool,
+Elder Futhark runes embroidered down center back in bone-white thread,
+Vegvisir compass symbol on front,
+subtle Yggdrasil tree branches on sleeves,
+model in dramatic Nordic landscape with fjords,
+moody overcast lighting, ancient power aesthetic,
+protection symbols for modern warriors,
+editorial meets heritage, --ar 3:4 --v 6.1 --s 700
+```
+
+### 10. Ankh Eternity Dress
+**Concept**: Egyptian key of life (3000 BCE)
+
+```
+Ethereal fashion editorial, flowing maxi dress in papyrus gold silk,
+ankh symbols embroidered in lapis blue and gold thread,
+life symbols cascading down bodice and skirt,
+lotus flowers interspersed between ankhs,
+model posed with arms extended holding fabric like wings,
+shot in golden hour light streaming through columns,
+immortal goddess aesthetic, timeless elegance,
+warm gold tones throughout, --ar 2:3 --v 6.1 --s 750
 ```
 
 ---
 
-## Product Photography
+## Hero Video Prompts
 
-### Artifact - Full Product Shot
+### Main Website Hero
 ```
-[PRODUCT NAME] photographed on invisible mannequin or laid flat.
-Dark charcoal gray background (#1a1a1a).
-Dramatic side lighting emphasizing texture and embroidery detail.
-Slight shadows creating depth and dimension.
-High resolution showing every stitch.
-Clean, gallery-style presentation.
-3:4 aspect ratio for product cards.
-```
-
-### Artifact - Detail Shot
-```
-Extreme close-up of [EMBROIDERY/PATTERN STYLE] embroidery on [FABRIC TYPE].
-Focus on single motif (flower/bird/geometric pattern).
-Macro lens capturing individual thread texture.
-Side lighting creating shadows in embroidery relief.
-Shallow depth of field, bokeh on surrounding fabric.
-1:1 aspect ratio for detail gallery.
+Cinematic slow-motion footage, hands performing traditional embroidery,
+extreme close-up of needle pulling gold thread through black fabric,
+ancient symbol (Tree of Life or lotus) emerging stitch by stitch,
+intercut with: museum artifacts morphing into fashion on models,
+archaeological dig site footage transitioning to runway,
+"excavating beauty from the ancient world" narrative,
+warm tungsten lighting, grain overlay, 4K 24fps,
+15-20 second loop, 2.39:1 cinematic ratio
 ```
 
-### Artifact - Editorial Shot
+### Fashion Archaeology Journey
 ```
-Model wearing [PRODUCT NAME] in editorial pose.
-Location: minimalist architectural space with concrete or dark walls.
-Dramatic lighting, single key light source.
-Model: [GENDER, BUILD] with confident, contemplative expression.
-Full body or 3/4 crop.
-Movement in fabric if applicable (wind, walking).
-Dark, moody color grade with warm skin tones.
-2:3 aspect ratio.
-```
-
-### Artifact - Styled Flat Lay
-```
-[PRODUCT NAME] laid artfully on dark surface.
-Surrounded by: raw materials (silk threads, fabric swatches), artisan tools (needles, thimbles).
-Dried botanicals (similar to embroidered motifs) scattered.
-Overhead shot, 45-degree or flat angle.
-Warm accent lighting highlighting gold/metallic elements.
-Square or 4:5 aspect ratio.
+Documentary-style footage of the creative process:
+Opening: hands brushing dust off ancient pottery shard
+Transition: designer sketching symbols from the artifact
+Middle: artisan embroidering the translated symbol onto fabric
+Close: finished garment photographed museum-style
+End: model wearing garment standing next to original artifact
+"From archaeological find to wearable archive"
+Warm documentary color grade, natural light mixed with spots
 ```
 
 ---
 
-## Collection Heroes
+## Collection Campaign Prompts
 
-### Threads of Abundance Collection
+### Mesopotamian Collection
 ```
-Wide shot of multiple garments from collection displayed on abstract dark forms.
-Museum-like installation aesthetic.
-Dramatic spot lighting on each piece.
-Botanical elements (branches, dried flowers) integrated into display.
-Deep shadows, pools of light.
-Cinematic 21:9 aspect ratio.
-```
-
-### Jamdani Capsule Collection
-```
-Jamdani fabric in motion—draped, flowing, catching light.
-Model or mannequin partially visible.
-Emphasis on the translucent quality of the weave.
-Backlit to show fabric structure.
-Soft, ethereal quality contrasting with dark surroundings.
-Gold thread details catching light.
+Campaign spread: multiple garments featuring Tree of Life, winged deities, Ishtar gate motifs,
+styled on diverse models in museum gallery with Assyrian artifacts,
+dramatic spot lighting creating pools of light on each piece,
+rich golds, deep blacks, lapis blues,
+each garment displayed like a precious artifact,
+editorial luxury meets archaeological exhibition,
+--ar 21:9 --v 6.1
 ```
 
-### Lotus Collection
+### Egyptian Revival Collection
 ```
-Arrangement focusing on lotus embroidery motifs.
-Water elements (still pool, droplets) reflecting garments.
-Meditative, zen aesthetic.
-Soft directional light mimicking dawn.
-Muted color palette: ice blue, terracotta, cream.
-Peaceful, contemplative mood.
-```
-
----
-
-## Artisan Portraits
-
-### Master Artisan Portrait
-```
-Portrait of [ARTISAN NAME], [CRAFT] artisan from [REGION].
-Environmental portrait in their workshop.
-Natural light from window, warm and directional.
-Subject at work or holding tools of their craft.
-Weathered hands visible, showing years of practice.
-Dignified, proud expression.
-Warm color grade, film-like quality.
-4:5 aspect ratio.
+Campaign visual: lotus dresses, scarab vests, ankh details,
+models posed around Egyptian columns and hieroglyphic walls,
+golden hour light mixed with dramatic spots,
+papyrus golds, lapis blues, terracotta accents,
+pharaonic elegance for modern times,
+Vogue meets National Geographic aesthetic,
+--ar 21:9 --v 6.1
 ```
 
-### Artisan Hands at Work
+### Celtic Mysteries Collection
 ```
-Close-up of artisan's hands performing [TECHNIQUE].
-[DESCRIBE SPECIFIC ACTION: threading needle, working loom, applying gold leaf].
-Detail of tools and materials visible.
-Dramatic side lighting emphasizing texture of skin.
-Motion blur optional for action shots.
-Warm, golden tones.
-16:9 aspect ratio for cinematic feel.
-```
-
-### Artisan Workshop Environment
-```
-Wide shot of traditional workshop in [REGION].
-Authentic setting with looms/embroidery frames/tools.
-Natural light streaming through windows.
-Artisan(s) at work in background.
-Raw materials, finished pieces visible.
-Documentary aesthetic, not staged.
-Warm, nostalgic color grade.
+Campaign imagery: knotwork coats, spiral embroidery, nature spirits,
+models in misty Irish landscape with standing stones,
+soft diffused light through fog,
+forest greens, silver threads, moss and stone textures,
+ancient druids reinterpreted for contemporary wardrobe,
+mystical romantic atmosphere,
+--ar 21:9 --v 6.1
 ```
 
 ---
 
-## UI/Brand Assets
+## Artisan Documentation Prompts
 
-### Logo Animation
+### Master Embroiderer Portrait
 ```
-"ColorCodedQASM" wordmark.
-Letters constructed from animated gold thread.
-Each letter "sewn" into frame sequentially.
-Dark background, subtle grain.
-Gold shimmer highlight on completion.
-2-3 seconds, loopable end state.
-```
-
-### Icon Set - Protocol Steps
-```
-Minimalist line icons in gold (#c9a227) on transparent background.
-Set of 5 icons:
-1. Eye with needle (Vision)
-2. Pencil with spiral (Design)
-3. Fabric swatch stack (Material)
-4. Hands with thread (Craft)
-5. Gift box with ribbon (Delivery)
-Consistent stroke weight, geometric style.
-SVG format, 64x64px base size.
+Environmental portrait of South Asian master embroiderer,
+seated at traditional embroidery frame in workshop,
+natural light from window illuminating their work,
+weathered hands visible, years of expertise evident,
+surrounded by threads, needles, partially complete work,
+dignified, proud expression, cultural preservation,
+warm documentary color grade, 4:5 portrait ratio
 ```
 
-### Texture - Grain Overlay
+### Hands at Work
 ```
-Film grain texture for overlay.
-Subtle, fine grain pattern.
-Seamless tile, 512x512px minimum.
-Low contrast, meant for 5-10% opacity overlay.
-Warm tone bias.
-PNG with transparency.
-```
-
-### Texture - Fabric Pattern
-```
-Seamless tileable texture of [FABRIC TYPE: silk, wool, jamdani weave].
-High resolution showing thread structure.
-Neutral color for use as background texture.
-Subtle, not distracting.
-1024x1024px tile.
+Extreme close-up of artisan hands embroidering ancient symbol,
+[SPECIFIC TECHNIQUE: Aari, Zardozi, chain stitch] in action,
+gold thread catching light, needle precision visible,
+dramatic side lighting emphasizing skin texture,
+threads and fabric filling frame,
+master craftsperson at work, timeless technique,
+16:9 cinematic ratio
 ```
 
 ---
 
 ## Social Media Assets
 
-### Instagram Post - Product Feature
+### Instagram Grid Post
 ```
-Single artifact on dark background.
-Centered composition, generous negative space.
-Bold typography overlay: product name in cream.
-Price in smaller gold text.
-Square 1:1 format.
-Brand watermark subtle in corner.
-```
-
-### Instagram Story - Behind the Scenes
-```
-Vertical 9:16 format.
-Split screen: artisan working (top) / finished detail (bottom).
-Warm, authentic filter.
-Subtle animated elements (thread moving, light flicker).
-Text overlay: "In the workshop with [Artisan Name]"
+Single Garden of Eden artifact on museum plinth,
+dark obsidian background, dramatic spotlight from above,
+garment displayed like archaeological treasure,
+embroidery detail catching light,
+clean minimal composition, generous negative space,
+luxury brand aesthetic, 1:1 square format
 ```
 
-### Pinterest Pin - Editorial
+### Instagram Story - Archaeological Dig
 ```
-Tall vertical format 2:3.
-Model in full garment, architectural setting.
-Moody, editorial aesthetic.
-Room for text overlay at top or bottom.
-Rich, saturated darks with warm accents.
-```
-
----
-
-## Email/Marketing Assets
-
-### Hero Banner - Newsletter
-```
-Wide landscape format 3:1.
-Dramatic product shot with heavy negative space.
-Text area on left (dark) for headline overlay.
-Product featured on right with dramatic lighting.
-Subtle gold gradient accent line.
+Vertical 9:16 format, motion content,
+top half: hands uncovering ancient pottery with symbol
+bottom half: same symbol embroidered on garment
+"Excavated → Encoded" text overlay,
+transition animation between the two images,
+warm earth tones, documentary aesthetic
 ```
 
-### Product Card - Email
+### Pinterest Pin
 ```
-Clean product shot on dark background.
-Centered, minimal styling.
-300x400px optimized.
-Consistent lighting across all products.
-White/cream border optional.
+Tall vertical 2:3 format,
+model in Garden of Eden garment posed in ruins or museum,
+moody editorial lighting,
+text area at top: "Wear Your Ancestry"
+rich saturated colors, architectural setting,
+luxury fashion meets history editorial
 ```
 
 ---
-
-## Specific Product Prompts
-
-### Dilkash Kimono Jacket
-```
-Luxurious kimono-style jacket with oversized silhouette.
-Deep burgundy or forest green base fabric (silk or fine wool).
-Intricate Mughal-inspired floral embroidery covering 60% of surface.
-Gold and silver thread work with colored silk accents.
-Motifs: paisley, florals, vines, stylized birds.
-Dramatic drape, wide sleeves.
-Shot on model with confident pose, or displayed museum-style.
-```
-
-### Hand Embroidered Oversized Suit
-```
-Two-piece oversized suit (jacket and trousers).
-Charcoal or midnight blue wool blend.
-Entire surface covered in dense hand embroidery.
-Geometric and botanical patterns intertwined.
-Resham (silk thread) work in cream, gold, burgundy.
-Modern silhouette with traditional embellishment.
-```
-
-### Jamdani Draped Dress
-```
-Sculptural dress in translucent Jamdani weave fabric.
-Cream/off-white base with subtle woven motifs.
-Asymmetric draping, architectural construction.
-Light catching the delicate weave structure.
-Motifs appearing and disappearing as fabric moves.
-Ethereal, gallery-worthy presentation.
-```
-
-### Gyre Falcon Corduroy Plaid Suit
-```
-Statement suit combining textures.
-Plaid cotton in earth tones (rust, forest, cream).
-Green corduroy panels/accents.
-Oversized notch lapel, relaxed fit.
-Hand-embroidered gyre falcon on back panel.
-Bird rendered in photorealistic embroidery.
-```
-
----
-
-## Video Specifications
-
-| Asset Type | Duration | Resolution | Aspect | Format |
-|------------|----------|------------|--------|--------|
-| Hero Loop | 15-20s | 4K | 16:9 | MP4/WebM |
-| Product Video | 10-15s | 1080p | 1:1 | MP4 |
-| Story Video | 15s | 1080p | 9:16 | MP4 |
-| Background Loop | 30s | 1080p | 16:9 | WebM |
 
 ## Image Specifications
 
-| Asset Type | Resolution | Aspect | Format |
-|------------|------------|--------|--------|
+| Asset Type | Resolution | Aspect Ratio | Format |
+|------------|------------|--------------|--------|
 | Product Card | 800x1067 | 3:4 | WebP |
 | Hero Image | 2400x1350 | 16:9 | WebP |
 | Detail Shot | 1200x1200 | 1:1 | WebP |
 | Artisan Portrait | 1200x1500 | 4:5 | WebP |
-| Social Post | 1080x1080 | 1:1 | JPG |
+| Campaign Wide | 2400x1029 | 21:9 | WebP |
+| Instagram Post | 1080x1080 | 1:1 | JPG |
+| Instagram Story | 1080x1920 | 9:16 | JPG |
+| Pinterest | 1000x1500 | 2:3 | JPG |
 
 ---
 
-## Color Reference
+## Color Reference (Garden of Eden Palette)
 
-When generating, reference these hex codes for consistency:
+Ancient pigment-inspired colors:
 
-- **Background Dark**: `#0a0a0a`
-- **Background Secondary**: `#141414`
-- **Cream Accent**: `#e8e3d6`
-- **Gold**: `#c9a227`
-- **Gold Light**: `#e8d78a`
-- **Burgundy**: `#722f37`
-- **Warm Brown**: `#542c23`
+- **Obsidian Black**: `#0D0D0D` (backgrounds)
+- **Lapis Lazuli Blue**: `#1E3A5F` (Mesopotamian/Egyptian)
+- **Papyrus Gold**: `#C4A35A` (Egyptian, accent)
+- **Terracotta**: `#C67B5C` (Mediterranean)
+- **Indigo Deep**: `#2C3E50` (Indus Valley)
+- **Forest Moss**: `#4A5D23` (Celtic)
+- **Ochre Earth**: `#CC7722` (cave paintings, warm accent)
+- **Ivory Bone**: `#F5F5DC` (artifacts, light accent)
+- **Byzantine Purple**: `#4B0082` (imperial)
+- **Turquoise**: `#40E0D0` (Mesoamerican)
+
+---
+
+## Midjourney Prompt Structure
+
+For best results, follow this template:
+
+```
+[Shot type] [Subject wearing garment description],
+[Ancient symbol/embroidery details],
+[Thread colors and techniques],
+[Setting: museum/ruins/landscape],
+[Lighting description],
+[Mood/aesthetic keywords],
+[Technical: camera, color grade],
+--ar [ratio] --v 6.1 --s [stylize: 650-850]
+```
+
+**Key Modifiers**:
+- `--s 750-850` for more artistic/stylized results
+- `--s 600-700` for more photorealistic results
+- Add `--style raw` for maximum realism
+- Use `--no` to exclude unwanted elements

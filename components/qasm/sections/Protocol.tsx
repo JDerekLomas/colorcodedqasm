@@ -12,8 +12,8 @@ interface ProtocolProps {
 
 export function Protocol({
   steps,
-  title = "The Protocol",
-  subtitle = "Your vision, encoded into artifact through generations of craft knowledge.",
+  title = "The Archaeological Process",
+  subtitle = "Your vision excavated and resurrected through 44 days of master craftsmanship.",
 }: ProtocolProps) {
   return (
     <section className="section-secondary">

@@ -11,10 +11,10 @@ export function Footer() {
       <div className="bg-cream py-12 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-2xl font-medium text-dark-500 mb-2">
-            Join the Archive
+            Join the Excavation
           </h3>
           <p className="text-dark-500/70 mb-6">
-            Receive updates on new artifacts, artisan stories, and exclusive early access.
+            Receive updates on new archaeological finds, artisan stories, and exclusive early access.
           </p>
           <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
             <input
@@ -35,10 +35,10 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="text-xl font-medium tracking-tight text-white">
-              <span className="text-gold">Color</span>Coded<span className="text-gold">QASM</span>
+              <span className="text-gold">Garden</span> of <span className="text-gold">Eden</span>
             </Link>
             <p className="mt-4 text-sm text-neutral-500 leading-relaxed">
-              Craft encoded. Culture compiled. Where heritage becomes algorithm.
+              Fashion archaeology. Ancient symbols resurrected as wearable art.
             </p>
           </div>
 
@@ -106,7 +106,7 @@ export function Footer() {
               Connect
             </h4>
             <ul className="space-y-3 text-sm text-neutral-400">
-              <li>hello@colorcodedqasm.com</li>
+              <li>hello@gardenofeden.fashion</li>
               <li className="flex gap-4 pt-2">
                 <a href="#" className="hover:text-white transition-colors" aria-label="Instagram">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -130,7 +130,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-neutral-500">
-          <p>&copy; {new Date().getFullYear()} ColorCodedQASM. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Garden of Eden. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
