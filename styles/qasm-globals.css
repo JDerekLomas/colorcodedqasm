@@ -1,0 +1,279 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ColorCodedQASM Design Tokens */
+:root {
+  /* Backgrounds */
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #141414;
+  --bg-tertiary: #1f1f1f;
+  --bg-cream: #e8e3d6;
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
+  --text-muted: #737373;
+  --text-dark: #0a0a0a;
+
+  /* Accents */
+  --accent-warm: #542c23;
+  --accent-gold: #c9a227;
+  --accent-burgundy: #722f37;
+
+  /* Borders */
+  --border-subtle: #262626;
+  --border-light: #404040;
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.display {
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.overline {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* Grain Overlay */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+/* Custom Components */
+@layer components {
+  /* Buttons */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3
+           bg-cream text-dark font-medium rounded-none
+           hover:bg-white transition-colors duration-300;
+    background-color: var(--bg-cream);
+    color: var(--text-dark);
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3
+           border border-white/30 text-white font-medium rounded-none
+           hover:bg-white hover:text-black transition-colors duration-300;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center px-6 py-3
+           font-medium rounded-none transition-all duration-300;
+    background: linear-gradient(90deg, #c9a227 0%, #e8d78a 50%, #c9a227 100%);
+    background-size: 200% auto;
+    color: var(--text-dark);
+  }
+
+  .btn-gold:hover {
+    background-position: right center;
+  }
+
+  /* Cards */
+  .card-dark {
+    @apply bg-neutral-900 border border-neutral-800 rounded-none;
+  }
+
+  .card-hover {
+    @apply transition-all duration-500 hover:border-neutral-700
+           hover:shadow-[0_0_30px_rgba(201,162,39,0.1)];
+  }
+
+  /* Artifacts (Product Cards) */
+  .artifact-card {
+    @apply group cursor-pointer;
+  }
+
+  .artifact-image {
+    @apply relative aspect-[3/4] bg-neutral-900 overflow-hidden;
+  }
+
+  .artifact-overlay {
+    @apply absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100
+           transition-opacity duration-500 flex items-center justify-center;
+  }
+
+  .artifact-info {
+    @apply mt-4 space-y-1;
+  }
+
+  .artifact-collection {
+    @apply text-xs text-neutral-500 uppercase tracking-[0.15em];
+  }
+
+  .artifact-title {
+    @apply text-white font-medium;
+  }
+
+  .artifact-price {
+    @apply text-neutral-400;
+  }
+
+  /* Protocol Timeline */
+  .protocol-step {
+    @apply flex gap-6 items-start;
+  }
+
+  .protocol-icon {
+    @apply w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0;
+    background: linear-gradient(135deg, var(--accent-gold), var(--accent-warm));
+  }
+
+  .protocol-line {
+    @apply w-px bg-neutral-800 mt-2;
+    min-height: 60px;
+  }
+
+  .protocol-days {
+    @apply text-xs uppercase tracking-[0.15em];
+    color: var(--accent-gold);
+  }
+
+  /* Navigation */
+  .nav-link {
+    @apply text-sm text-neutral-400 hover:text-white transition-colors
+           relative after:absolute after:bottom-0 after:left-0 after:w-0
+           after:h-px after:bg-gold after:transition-all after:duration-300
+           hover:after:w-full;
+  }
+
+  .nav-link::after {
+    background-color: var(--accent-gold);
+  }
+
+  /* Inputs */
+  .input-dark {
+    @apply w-full px-4 py-3 bg-neutral-900 border border-neutral-800
+           text-white placeholder:text-neutral-500 rounded-none
+           focus:outline-none focus:border-neutral-600 transition-colors;
+  }
+
+  /* Badges */
+  .badge-gold {
+    @apply inline-flex items-center px-2 py-1 text-xs font-medium uppercase tracking-wider;
+    background-color: var(--accent-gold);
+    color: var(--text-dark);
+  }
+
+  .badge-burgundy {
+    @apply inline-flex items-center px-2 py-1 text-xs font-medium uppercase tracking-wider text-white;
+    background-color: var(--accent-burgundy);
+  }
+
+  /* Sections */
+  .section-dark {
+    @apply py-20 px-6;
+    background-color: var(--bg-primary);
+  }
+
+  .section-secondary {
+    @apply py-20 px-6;
+    background-color: var(--bg-secondary);
+  }
+
+  .section-cream {
+    @apply py-20 px-6;
+    background-color: var(--bg-cream);
+    color: var(--text-dark);
+  }
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes reveal {
+  from { clip-path: inset(100% 0 0 0); }
+  to { clip-path: inset(0% 0 0 0); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-shimmer {
+  animation: shimmer 3s ease-in-out infinite;
+  background-size: 200% auto;
+}
+
+.animate-reveal {
+  animation: reveal 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+}
+
+/* Stagger delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-subtle);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-light);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--accent-gold);
+  color: var(--text-dark);
+}
